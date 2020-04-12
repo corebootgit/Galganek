@@ -12,7 +12,7 @@ public class SplasScreen extends AbstractScreen {
     }
 
     private void init() {
-        splashImage = new Texture("shlashImage.jpg");
+        splashImage = new Texture("splashImage.jpg");
     }
 
     @Override

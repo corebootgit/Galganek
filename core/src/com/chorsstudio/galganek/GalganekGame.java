@@ -1,10 +1,11 @@
 package com.chorsstudio.galganek;
 
 import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Game;
 
 import screens.SplasScreen;
 
-public class GalganekGame extends ApplicationAdapter {
+public class GalganekGame extends Game {
 
 	public final static String GAME_NAME = "Galganek";
 	public final static int  WIDTH = 1024;
