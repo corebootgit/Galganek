@@ -20,7 +20,7 @@ public class SplasScreen extends AbstractScreen {
         super.render(delta);
 
         spriteBatch.begin();
-        spriteBatch.draw(splashImage, game.WIDTH/2 - splashImage.getWidth()/2, game.HEIGHT/2 - splashImage.getHeight()/2);
+        spriteBatch.draw(splashImage, game.WIDTH/2 - splashImage.getWidth()/2, game.HEIGHT/2 - splashImage.getHeight()/2 + 200) ;
         spriteBatch.end();
 
     }
